@@ -1,0 +1,26 @@
+[tool.flake8]
+extend-ignore = "E501,W503"
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "slack-feedly-token-updater"
+version = "0.1.0"
+description = ""
+authors = ["dmingn <dmingn@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+slack-bolt = "^1.14.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+isort = {extras = ["pyproject"], version = "^5.10.1"}
+pyproject-flake8 = "^0.0.1-alpha.4"
+mypy = "^0.961"
+pydocstyle = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
