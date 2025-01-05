@@ -19,7 +19,7 @@ black = "^22.6.0"
 isort = {extras = ["pyproject"], version = "^5.10.1"}
 pyproject-flake8 = "^0.0.1-alpha.4"
 mypy = "^0.961"
-pydocstyle = "^6.1.1"
+pydocstyle = "^6.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
