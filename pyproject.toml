@@ -18,7 +18,7 @@ slack-bolt = "^1.14.0"
 black = "^22.6.0"
 isort = {extras = ["pyproject"], version = "^5.10.1"}
 pyproject-flake8 = "^0.0.1-alpha.4"
-mypy = "^0.961"
+mypy = "^1.14"
 pydocstyle = "^6.3.0"
 
 [build-system]
