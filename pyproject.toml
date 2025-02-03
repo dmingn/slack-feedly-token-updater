@@ -16,7 +16,7 @@ slack-bolt = "^1.22.0"
 
 [tool.poetry.dev-dependencies]
 black = "^24.10.0"
-isort = {extras = ["pyproject"], version = "^5.13.2"}
+isort = {extras = ["pyproject"], version = "^6.0.0"}
 pyproject-flake8 = "^7.0.0"
 mypy = "^1.14"
 pydocstyle = "^6.3.0"
